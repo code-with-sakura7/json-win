@@ -1,0 +1,553 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "unbound",
+            "keys": ""
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+f4"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{f6465fe8-15b7-488f-aa15-fb8bb7398ce3}",
+    "launchMode": "maximized",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Dracula"
+        },
+        "list": 
+        [
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.5,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": "Dracula",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoExit -Command cls",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "MesloLGS NF",
+                    "size": 20,
+                    "weight": "normal"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{f6465fe8-15b7-488f-aa15-fb8bb7398ce3}",
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "pwsh",
+                "opacity": 100,
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": "D:\\cs\\home\\SNX\\Kasane\\Wallpaper_SNX_04_3840x2160.jpg",
+                "backgroundImageOpacity": 0.35999999999999999,
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "cmd.exe",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Fira Code",
+                    "size": 16,
+                    "weight": "semi-bold"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{c1c6ae61-165f-41fc-8f9a-26f23bd00989}",
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "cmd",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.5,
+                "commandline": "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\adity\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\adity\\miniconda3' \"",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "MesloLGS NFM",
+                    "size": 19,
+                    "weight": "medium"
+                },
+                "foreground": "#8CFF00",
+                "guid": "{8511e7b8-c60b-430a-9cdf-6d9688c09c58}",
+                "icon": "\ud83d\udc0d",
+                "name": "conda pwsh",
+                "opacity": 60,
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "%HOMEPATH%"
+            },
+            {
+                "backgroundImage": "C:\\Users\\adity\\Desktop\\image.png",
+                "backgroundImageOpacity": 0.29999999999999999,
+                "commandline": "%windir%\\System32\\cmd.exe \"/K\" C:\\Users\\adity\\miniconda3\\Scripts\\activate.bat C:\\Users\\adity\\miniconda3",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 15,
+                    "weight": "semi-bold"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{dbf0c53c-b0b3-429d-ada6-043b946164fe}",
+                "name": "conda cmd",
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "%HOMEPATH%"
+            },
+            {
+                "backgroundImage": "D:\\wally\\dreams_by_gydw1n_denv26m.png",
+                "backgroundImageOpacity": 0.5,
+                "commandline": "\"C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql.exe\" \"--defaults-file=C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini\" \"-uroot\" \"-p\"",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 15,
+                    "weight": "normal"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{902099eb-da4f-4512-aea7-21099aacbe36}",
+                "name": "mysql cli",
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\"
+            },
+            {
+                "backgroundImage": "D:\\dwnld\\HI3RD\\2022021419010021831.png",
+                "backgroundImageOpacity": 0.29999999999999999,
+                "commandline": "\"C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\mysqlsh.exe\"",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 15,
+                    "weight": "semi-bold"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{705fe664-477a-466a-95b0-d8bd231dfb2e}",
+                "name": "mysql shell",
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+            },
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.46999999999999997,
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 15,
+                    "weight": "semi-bold"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.53000000000000003,
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "FiraCode NF",
+                    "size": 15,
+                    "weight": "medium"
+                },
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": true,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "backgroundImage": "C:\\Users\\adity\\Desktop\\white.jpg",
+                "backgroundImageOpacity": 1.0,
+                "commandline": "\"C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql.exe\" \"--defaults-file=C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini\" \"-uroot\" \"-p\"",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 15,
+                    "weight": "semi-bold"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{07dcbbd6-7ba6-4848-a67c-b33387980e4b}",
+                "name": "mysql cli (Copy)",
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\"
+            },
+            {
+                "backgroundImage": "C:\\Users\\adity\\Desktop\\white.jpg",
+                "backgroundImageOpacity": 1.0,
+                "commandline": "\"C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql.exe\" \"--defaults-file=C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini\" \"-uroot\" \"-p\"",
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 15,
+                    "weight": "normal"
+                },
+                "foreground": "#000000",
+                "guid": "{b9732631-9a4c-446f-85fb-ba2a8fbcd083}",
+                "name": "mysql cli (Copy 2)",
+                "selectionBackground": "#CEB2E0",
+                "startingDirectory": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\"
+            },
+            {
+                "guid": "{ec9cc1d3-9413-502c-ac83-b2a7e1414908}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.40000000000000002,
+                "cursorColor": "#FF0000",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Fira Code",
+                    "size": 15,
+                    "weight": "semi-bold"
+                },
+                "foreground": "#00FFEE",
+                "guid": "{01b00197-813a-5a2f-b9e9-3763d7810beb}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{71c0b6cf-b01d-402a-8396-7baa532c5a94}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt (Copy)",
+                "opacity": 0,
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#012456",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell Powershell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#282A36",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "brightBlack": "#FF00C8",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#282C34",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "brightBlack": "#5A6374",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#DCDFE4",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#DCDFE4",
+            "green": "#98C379",
+            "name": "One Half Dark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DCDFE4",
+            "yellow": "#E5C07B"
+        },
+        {
+            "background": "#FAFAFA",
+            "black": "#383A42",
+            "blue": "#0184BC",
+            "brightBlack": "#4F525D",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B5C1",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C577DD",
+            "brightRed": "#DF6C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E4C07A",
+            "cursorColor": "#4F525D",
+            "cyan": "#0997B3",
+            "foreground": "#383A42",
+            "green": "#50A14F",
+            "name": "One Half Light",
+            "purple": "#A626A4",
+            "red": "#E45649",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FAFAFA",
+            "yellow": "#C18301"
+        },
+        {
+            "background": "#002B36",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#2AA198",
+            "foreground": "#839496",
+            "green": "#859900",
+            "name": "Solarized Dark",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#FDF6E3",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#002B36",
+            "cyan": "#2AA198",
+            "foreground": "#657B83",
+            "green": "#859900",
+            "name": "Solarized Light",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#06989A",
+            "foreground": "#D3D7CF",
+            "green": "#4E9A06",
+            "name": "Tango Dark",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#000000",
+            "cyan": "#06989A",
+            "foreground": "#555753",
+            "green": "#4E9A06",
+            "name": "Tango Light",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#000080",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008080",
+            "foreground": "#C0C0C0",
+            "green": "#008000",
+            "name": "Vintage",
+            "purple": "#800080",
+            "red": "#800000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C0C0C0",
+            "yellow": "#808000"
+        }
+    ],
+    "theme": "dark"
+}
